@@ -11,7 +11,7 @@ type Event struct {
 	Location  string    `json:"location"`
 	Date      time.Time `json:"date"`
 	CreatedAt time.Time `json:"created_at"`
-	UpdateAt  time.Time `json:"updated_at"`
+	UpdatedAt  time.Time `json:"updated_at"`
 }
 
 //  define methods for interacting with Event objects (such as retrieving and creating events) using interface
