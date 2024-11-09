@@ -36,7 +36,7 @@ func (h *EventHandler) GetOne(ctx *fiber.Ctx) error {
 	return nil
 }
 
-func (h *EventHandler) CreateOne(ctx *fiber.Ctx, eventId string) error {
+func (h *EventHandler) CreateOne(ctx *fiber.Ctx) error {
 	return nil
 }
 

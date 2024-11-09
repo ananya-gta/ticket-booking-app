@@ -1,9 +1,22 @@
 1. What is go.sum?
-The go.sum file stores cryptographic hashes of the dependencies used in your Go module. It is automatically created and maintained by Go when working with modules.
-It acts as a security measure to verify that the modules (dependencies) you are using haven’t been tampered with. The hash values in go.sum ensure that the content of each dependency matches what was originally downloaded or specified, preventing potential issues with rogue code or attacks.
-When you run commands like go build, go test, or go mod tidy, Go uses the go.sum file to verify that all module versions and their respective content are consistent with what was originally resolved and expected.
+The go.sum file stores cryptographic hashes of the dependencies used in your Go module. 
+It is automatically created and maintained by Go when working with modules.
+It acts as a security measure to verify that the modules (dependencies) you are using haven’t been tampered with. 
+The hash values in go.sum ensure that the content of each dependency matches what was originally downloaded or specified, preventing potential issues with rogue code or attacks.
+When you run commands like go build, go test, or go mod tidy, 
+Go uses the go.sum file to verify that all module versions and their respective content are consistent with what was originally resolved and expected.
 
 2. What is MakeFile?
 A Makefile is a special file used in software development to define and automate the process of building and managing dependencies in a project.
 It contains a set of rules that specify how to build and compile the project, including the dependencies required.
 The Makefile is used by the make command to execute the specified rules and build the project.
+
+3. You have used GoFiber. What is Fiber ?
+Fiber is a Express liek framework, faster than FastHttp used for building APIs.
+
+4. You have used GoAir. What is Air ?
+In the context of Go (Golang), Air refers to air, a popular live-reload tool for Go development.
+In Go development, you often need to rebuild and restart the application to see changes. 
+This is typically done using go run, go build, or go test followed by manual restarts. 
+air automates this process by watching your source files for changes and then rebuilding and 
+restarting the application automatically.

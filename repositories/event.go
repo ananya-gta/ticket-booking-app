@@ -17,7 +17,7 @@ func (r *EventRepository) GetMany(ctx context.Context) ([]*models.Event, error) 
 	events = append(events, &models.Event{
 		Id: "001",
 		Name: "Comic Con",
-		Location: "Gurgram",
+		Location: "Gurugram",
 		Date: time.Now(),
 		CreatedAt: time.Now(),
 		UpdatedAt: time.Now(),

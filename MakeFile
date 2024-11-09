@@ -1,5 +1,7 @@
-start:
-	@.bin/main
+start: build
+	@echo "Starting the application..."
+	@ ./bin
 
 build:
+	@echo "Building the app..."
 	@go build -o ./bin ./cmd/api/main.go
